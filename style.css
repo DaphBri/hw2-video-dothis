@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+*,* :before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    position: relative;
+}
+
+video {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+img {
+    position: absolute;
+    left:25%;
+    top:250px;
+}
